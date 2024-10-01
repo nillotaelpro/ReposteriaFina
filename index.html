@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reposteria Fina</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-nav-container">
+            <img src="Logo.png" alt="Reposteria_Fina" class="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Reposteria Fina</h2>
+        <p>Es una experiencia sensorial diseñada para celebrar cada momento especial en la vida. Cada muffin y macaron que creamos está impregnado
+            de pasión y dedicación, transformando ingredientes frescos en delicias
+            que cautivan el paladar y despiertan emociones. Nos esforzamos por
+            ofrecer un producto que no solo satisface el anhelo de algo dulce, sino que
+            también deleita a la vista con presentaciones artísticas y cuidadas.
+            Además, creemos que cada bocado debe contar una historia. Ya sea un
+            cumpleaños, una boda o simplemente un capricho personal, estamos aquí
+            para hacer de cada ocasión un momento memorable. Nuestra atención al
+            detalle y nuestro compromiso con la calidad nos distinguen, y estamos
+            orgullosos de ser parte de las celebraciones de nuestros clientes.
+            Te invitamos a descubrir un mundo dulce y elegante donde cada producto
+            es una obra maestra de la repostería fina. Ven a compartir con nosotros la
+            alegría de disfrutar de sabores únicos y momentos inolvidables. ¡Te
+            esperamos con los brazos abiertos y un delicioso muffin o macaron en la
+            mano!</p>
+            <p>Misión: Endulzar cada momento con productos de repostería de alta calidad, elaborados con ingredientes frescos y técnicas artesanales.
+                    <br>
+                Visión: Ser la pastelería líder, reconocida por nuestra innovación, creatividad y excelencia en el servicio.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="macarrons.jpeg" alt="macarrons">
+                <p>macarrons</p>
+                <p>Precio: S/20</p>
+            </div>
+            <div class="producto">
+                <img src="Mufins.jpeg" alt="Mufins">
+                <p>Mufins de chocolate</p>
+                <p>Precio: S/22</p>
+            </div>
+            <div class="producto">
+                <img src="Mufins de chocolate.jpeg" alt="Mufins de chocolate">
+                <p>Mufins</p>
+                <p>Precio: S/18</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <div class="producto" style="width: 500px;">
+                <img src="1.png" alt="">                <img src="2.png" alt="">
+            </div>
+            <div class="producto" style="width: 500px;">
+                <img src="afiche.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formularioContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pokepasteleria - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
